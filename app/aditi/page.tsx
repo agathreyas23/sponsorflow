@@ -175,10 +175,10 @@ export default function AditiPage() {
               Purdue / Economics & Industrial Engineering
             </p>
             <h1 className="mt-6 max-w-4xl text-5xl font-semibold leading-[0.98] md:text-7xl">
-              Making good ideas easier to use.
+              An ambitious mind can make ideas real.
             </h1>
             <p className="mt-7 max-w-2xl text-xl leading-8 text-[#5f5142] md:text-2xl">
-              At Purdue, I study Economics & Industrial Engineering and spend my time in consulting, student leadership, operations, and product experiments like SponsorFlow.
+              At Purdue, I study Economics & Industrial Engineering and spend my time turning curiosity into consulting work, student leadership, operations, and product experiments like SponsorFlow.
             </p>
           </div>
           <div className="grid gap-5 md:mb-2">
