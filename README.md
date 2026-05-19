@@ -74,7 +74,7 @@ Note: `npm run build` is the deployment check. If `.next/types` has stale genera
 
 ## Repository Status
 
-This repo is prepared for a public GitHub profile. Before sharing with YC or technical reviewers, add:
+This repo is prepared for a public GitHub profile. Before sharing widely, add:
 
 - A public GitHub repo URL
 - A short demo video or screenshots

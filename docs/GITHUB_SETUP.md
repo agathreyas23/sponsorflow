@@ -47,7 +47,7 @@ Pin the `sponsorflow` repo. It should show:
 - Screenshots or demo video
 - Why the project matters
 
-## 5. YC / Technical Reviewer Notes
+## 5. Technical Reviewer Notes
 
 Before submitting anywhere, make sure the repo has:
 

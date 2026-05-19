@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1080" height="1920" fill="#ffffff"/>
+  <rect x="0" y="0" width="1080" height="118" fill="#ffffff"/>
+  <text x="70" y="92" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="33" font-weight="700" fill="#777777" >@yourcollegeappadv</text>
+  <rect x="890" y="48" width="112" height="54" rx="27" fill="#f5f5f5"/>
+  <text x="946" y="84" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="27" font-weight="800" fill="#0b0b0b" text-anchor="middle">3/3</text>
+  <line x1="0" y1="118" x2="1080" y2="118" stroke="#ececec" stroke-width="2"/>
+  
+    <text x="70" y="244" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="72" font-weight="850" fill="#0b0b0b" >before school ends</text>
+    
+    <g>
+      <circle cx="116" cy="452" r="36" fill="#f2eadc"/>
+      <text x="116" y="464" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#665440" text-anchor="middle">5</text>
+      <text x="180" y="470" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="44" font-weight="800" fill="#0b0b0b" >ask recommenders</text>
+      <text x="180" y="521" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="31" font-weight="600" fill="#777777" >ask while teachers remember your work</text>
+    </g>
+  
+    
+    <g>
+      <circle cx="116" cy="682" r="36" fill="#f2eadc"/>
+      <text x="116" y="694" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#665440" text-anchor="middle">6</text>
+      <text x="180" y="700" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="44" font-weight="800" fill="#0b0b0b" >essay seed list</text>
+      <text x="180" y="751" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="31" font-weight="600" fill="#777777" >write 10 real moments from your life</text>
+    </g>
+  
+    
+    <g>
+      <circle cx="116" cy="912" r="36" fill="#f2eadc"/>
+      <text x="116" y="924" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#665440" text-anchor="middle">7</text>
+      <text x="180" y="930" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="44" font-weight="800" fill="#0b0b0b" >plan summer proof</text>
+      <text x="180" y="981" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="31" font-weight="600" fill="#777777" >project, job, research, service, portfolio</text>
+    </g>
+  
+    <rect x="70" y="1285" width="940" height="212" rx="42" fill="#f2eadc"/>
+    <text x="540" y="1368" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="38" font-weight="800" fill="#665440" text-anchor="middle">posting more senior year app strategy</text>
+    <text x="540" y="1430" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="36" font-weight="750" fill="#0b0b0b" text-anchor="middle">follow @yourcollegeappadv</text>
+    
+    <g transform="translate(540 1662) scale(0.55)">
+      <circle cx="0" cy="0" r="112" fill="#fffaf2" stroke="#e6d7bf" stroke-width="4"/>
+      <circle cx="0" cy="-8" r="72" fill="#f2eadc" opacity="0.75"/>
+      <path d="M-48 -40 L0 -66 L52 -40 L0 -12 Z" fill="none" stroke="#665440" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M-31 -22 L-31 42 L33 42 L33 -22" fill="none" stroke="#665440" stroke-width="7" stroke-linecap="round"/>
+      <path d="M-14 -1 L16 -1 M-14 18 L16 18" stroke="#665440" stroke-width="6" stroke-linecap="round"/>
+      <path d="M50 -40 L72 -24 L72 14" fill="none" stroke="#665440" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="72" cy="20" r="8" fill="#665440"/>
+      <text x="-78" y="91" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="800" fill="#665440" >YOUR COLLEGE</text>
+      <text x="-74" y="116" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="800" fill="#665440" >APP ADVISOR</text>
+    </g>
+  
+  
+</svg>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="26" flood-color="#5f4b36" flood-opacity="0.11"/>
+    </filter>
+    <pattern id="grain" width="120" height="120" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="22" r="1.1" fill="#7d6b55" opacity="0.08"/>
+      <circle cx="86" cy="58" r="0.9" fill="#7d6b55" opacity="0.07"/>
+      <circle cx="44" cy="101" r="0.8" fill="#7d6b55" opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="1080" height="1920" fill="#fffaf1"/>
+  <rect width="1080" height="1920" fill="url(#grain)"/>
+  <circle cx="985" cy="118" r="210" fill="#f3d9cf" opacity="0.55"/>
+  <circle cx="58" cy="1684" r="244" fill="#e3f0e7" opacity="0.62"/>
+  <rect x="72" y="94" width="936" height="1732" rx="54" fill="#fdf8ef" filter="url(#softShadow)"/>
+  <rect x="116" y="142" width="848" height="1636" rx="38" fill="none" stroke="#d8c3a3" stroke-width="3" opacity="0.75"/>
+  <text x="140" y="222" font-family="Avenir Next, Arial, sans-serif" font-size="31" font-weight="700" fill="#746a5f" >@yourcollegeappadv</text>
+  <rect x="828" y="178" width="108" height="56" rx="28" fill="#6b5843"/>
+  <text x="882" y="216" font-family="Avenir Next, Arial, sans-serif" font-size="28" font-weight="800" fill="#ffffff" text-anchor="middle">1/3</text>
+  
+    
+    <g transform="translate(540 438) scale(0.94)">
+      <circle cx="0" cy="0" r="128" fill="#f4ead8" stroke="#d9cab5" stroke-width="6"/>
+      <circle cx="0" cy="-8" r="82" fill="#efe0c6" opacity="0.55"/>
+      <path d="M-54 -42 L0 -72 L58 -42 L0 -13 Z" fill="none" stroke="#6b5843" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M-34 -24 L-34 46 L35 46 L35 -24" fill="none" stroke="#6b5843" stroke-width="7" stroke-linecap="round"/>
+      <path d="M-16 2 L18 2 M-16 22 L18 22" stroke="#6b5843" stroke-width="6" stroke-linecap="round"/>
+      <path d="M55 -42 L78 -25 L78 16" fill="none" stroke="#6b5843" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="78" cy="21" r="8" fill="#6b5843"/>
+      <text x="-86" y="102" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="800" fill="#6b5843" >YOUR COLLEGE</text>
+      <text x="-82" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="800" fill="#6b5843" >APP ADVISOR</text>
+    </g>
+  
+    <text x="540" y="690" font-family="Avenir Next, Arial, sans-serif" font-size="30" font-weight="800" fill="#6b5843" text-anchor="middle" letter-spacing="3">MAY COLLEGE APP PREP</text>
+    <text x="540" y="836" font-family="Georgia, 'Times New Roman', serif" font-size="102" font-weight="800" fill="#332718" text-anchor="middle">Targeting</text>
+<text x="540" y="954" font-family="Georgia, 'Times New Roman', serif" font-size="102" font-weight="800" fill="#332718" text-anchor="middle">T20 schools?</text>
+    <path d="M254 1106 C360 1060, 454 1150, 560 1104 C660 1061, 730 1011, 838 1046" fill="none" stroke="#c9795c" stroke-width="13" stroke-linecap="round" opacity="0.75"/>
+    <text x="540" y="1266" font-family="Avenir Next, Arial, sans-serif" font-size="46" font-weight="600" fill="#746a5f" text-anchor="middle">What to do in May</text>
+<text x="540" y="1328" font-family="Avenir Next, Arial, sans-serif" font-size="46" font-weight="600" fill="#746a5f" text-anchor="middle">before app season gets loud.</text>
+    <rect x="240" y="1510" width="600" height="92" rx="46" fill="#6b5843"/>
+    <text x="540" y="1568" font-family="Avenir Next, Arial, sans-serif" font-size="34" font-weight="800" fill="#ffffff" text-anchor="middle">save this checklist</text>
+  
+</svg>

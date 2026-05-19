@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf7ef"/>
+      <stop offset="0.46" stop-color="#f7fbf8"/>
+      <stop offset="1" stop-color="#edf4ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#17213d" flood-opacity="0.14"/>
+    </filter>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M 54 0 L 0 0 0 54" fill="none" stroke="#16213d" stroke-width="1" opacity="0.055"/>
+    </pattern>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#bg)"/>
+  <rect width="1080" height="1920" fill="url(#grid)"/>
+  <circle cx="955" cy="96" r="164" fill="#ff715b" opacity="0.19"/>
+  <circle cx="112" cy="1192" r="214" fill="#69d2c1" opacity="0.22"/>
+  <rect x="70" y="98" width="940" height="1724" rx="46" fill="#fffdf8" filter="url(#shadow)" opacity="0.94"/>
+  <rect x="108" y="138" width="864" height="1644" rx="34" fill="none" stroke="#6b5843" stroke-width="2" opacity="0.16"/>
+  <text x="132" y="218" font-size="30" font-weight="800" fill="#6e655b" >@yourcollegeappadv</text>
+  
+    <rect x="838" y="178" width="104" height="54" rx="27" fill="#6b5843"/>
+    <text x="890" y="218" font-size="31" font-weight="800" fill="#ffffff" text-anchor="middle">3/3</text>
+  
+  
+    <text x="132" y="390" font-size="72" font-weight="900" fill="#16213d" >Before school ends</text>
+    
+    <g>
+      <circle cx="164" cy="592" r="32" fill="#ff715b"/>
+      <text x="164" y="604" font-size="31" font-weight="900" fill="#ffffff" text-anchor="middle">5</text>
+      <text x="220" y="578" font-size="38" font-weight="850" fill="#16213d" >Ask recommenders</text>
+      <text x="220" y="627" font-size="28" font-weight="560" fill="#485065" >Ask in May while teachers still</text>
+<text x="220" y="666" font-size="28" font-weight="560" fill="#485065" >remember your best work.</text>
+    </g>
+  
+    
+    <g>
+      <circle cx="164" cy="852" r="32" fill="#69bfae"/>
+      <text x="164" y="864" font-size="31" font-weight="900" fill="#ffffff" text-anchor="middle">6</text>
+      <text x="220" y="838" font-size="38" font-weight="850" fill="#16213d" >Essay seed list</text>
+      <text x="220" y="887" font-size="28" font-weight="560" fill="#485065" >Write 10 moments that changed</text>
+<text x="220" y="926" font-size="28" font-weight="560" fill="#485065" >how you think, act, or lead.</text>
+    </g>
+  
+    
+    <g>
+      <circle cx="164" cy="1112" r="32" fill="#5d73d8"/>
+      <text x="164" y="1124" font-size="31" font-weight="900" fill="#ffffff" text-anchor="middle">7</text>
+      <text x="220" y="1098" font-size="38" font-weight="850" fill="#16213d" >Plan summer proof</text>
+      <text x="220" y="1147" font-size="28" font-weight="560" fill="#485065" >Research, job, project, service,</text>
+<text x="220" y="1186" font-size="28" font-weight="560" fill="#485065" >portfolio. Make impact visible.</text>
+    </g>
+  
+    <rect x="132" y="1480" width="812" height="110" rx="55" fill="#16213d"/>
+    <text x="538" y="1549" font-size="36" font-weight="850" fill="#ffffff" text-anchor="middle">Follow for senior year app strategy</text>
+    <text x="538" y="1665" font-size="37" font-weight="850" fill="#ff715b" text-anchor="middle">@yourcollegeappadv</text>
+  
+</svg>

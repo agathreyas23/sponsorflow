@@ -2,7 +2,7 @@
 
 SponsorFlow is ready for Vercel deployment after dependencies are installed.
 
-## Fastest YC Demo Deploy
+## Fastest Demo Deploy
 
 1. Push this project to GitHub.
 2. Import the repo in Vercel.

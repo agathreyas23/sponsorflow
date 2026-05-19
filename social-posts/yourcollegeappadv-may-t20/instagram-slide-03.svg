@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080" height="1350" viewBox="0 0 1080 1350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#6b5843" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <rect width="1080" height="1350" fill="#ffffff"/>
+  <circle cx="934" cy="146" r="170" fill="#f0e6d5" opacity="0.7"/>
+  <circle cx="92" cy="1228" r="190" fill="#edf7f2" opacity="0.9"/>
+  <rect x="54" y="50" width="972" height="1250" rx="46" fill="#ffffff" filter="url(#shadow)"/>
+  <rect x="82" y="78" width="916" height="1194" rx="34" fill="none" stroke="#eeeeee" stroke-width="2"/>
+  <text x="112" y="140" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#767676" >@yourcollegeappadv</text>
+  <rect x="860" y="102" width="96" height="50" rx="25" fill="#f7f7f7"/>
+  <text x="908" y="136" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="25" font-weight="850" fill="#080808" text-anchor="middle">3/3</text>
+  
+    <text x="112" y="244" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="64" font-weight="900" fill="#080808" >before school ends</text>
+    
+    <g>
+      <rect x="112" y="360" width="394" height="178" rx="28" fill="#f7f7f7"/>
+      <circle cx="162" cy="412" r="28" fill="#f0e6d5"/>
+      <text x="162" y="422" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="24" font-weight="850" fill="#665440" text-anchor="middle">5</text>
+      <text x="204" y="422" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="32" font-weight="850" fill="#080808" >recs</text>
+      <text x="146" y="476" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="25" font-weight="600" fill="#767676" >ask teachers while</text>
+<text x="146" y="510" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="25" font-weight="600" fill="#767676" >you're still fresh</text>
+    </g>
+  
+    
+    <g>
+      <rect x="574" y="360" width="394" height="178" rx="28" fill="#f7f7f7"/>
+      <circle cx="624" cy="412" r="28" fill="#f0e6d5"/>
+      <text x="624" y="422" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="24" font-weight="850" fill="#665440" text-anchor="middle">6</text>
+      <text x="666" y="422" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="32" font-weight="850" fill="#080808" >essay seeds</text>
+      <text x="608" y="476" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="25" font-weight="600" fill="#767676" >10 moments that</text>
+<text x="608" y="510" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="25" font-weight="600" fill="#767676" >show who you are</text>
+    </g>
+  
+    
+    <g>
+      <rect x="112" y="588" width="856" height="178" rx="28" fill="#f7f7f7"/>
+      <circle cx="162" cy="640" r="28" fill="#f0e6d5"/>
+      <text x="162" y="650" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="24" font-weight="850" fill="#665440" text-anchor="middle">7</text>
+      <text x="204" y="650" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="32" font-weight="850" fill="#080808" >summer proof</text>
+      <text x="146" y="704" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="25" font-weight="600" fill="#767676" >project, job, research,</text>
+<text x="146" y="738" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="25" font-weight="600" fill="#767676" >service, portfolio</text>
+    </g>
+  
+    <rect x="112" y="858" width="856" height="188" rx="38" fill="#f0e6d5"/>
+    <text x="540" y="928" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="32" font-weight="900" fill="#665440" text-anchor="middle">hot take:</text>
+    <text x="540" y="982" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="32" font-weight="800" fill="#080808" text-anchor="middle">T20 apps are easier when your story is clear</text>
+    <rect x="158" y="1116" width="764" height="82" rx="41" fill="#080808"/>
+    <text x="540" y="1169" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="31" font-weight="850" fill="#ffffff" text-anchor="middle">follow for senior year app strategy</text>
+    <text x="540" y="1244" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#8b7358" text-anchor="middle">@yourcollegeappadv</text>
+  
+</svg>

@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "title": "Aditi Athreyas",
+    "description": "Aditi Athreyas is a Purdue student studying Economics and Industrial Engineering, working across consulting, operations, consumer insights, and student leadership."
+  },
+  "nav": [
+    {
+      "label": "Work",
+      "href": "#work"
+    },
+    {
+      "label": "Other",
+      "href": "#involvement"
+    },
+    {
+      "label": "About",
+      "href": "#about"
+    }
+  ],
+  "links": [
+    {
+      "label": "Email",
+      "href": "mailto:athreya3@purdue.edu"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/aditiathreyas"
+    },
+    {
+      "label": "SponsorFlow",
+      "href": "https://sponsorflow-tau.vercel.app/aditi"
+    },
+    {
+      "label": "GitHub",
+      "href": "https://github.com/agathreyas23/sponsorflow"
+    }
+  ],
+  "hero": {
+    "kicker": "Creative | Ambitious | Consistent",
+    "name": "Aditi Athreyas",
+    "quote": "Build a life that feels as intentional as it looks.",
+    "intro": "Hi! I'm Aditi Athreyas, currently at Purdue University, passionate about uniting the worlds of engineering and operations to lead at the forefront of innovation. ",
+    "blurb": "I’m a student at Purdue University studying Economics and Industrial Engineering, interested in how systems, technology, and business strategy intersect.\n",
+    "image": "/aditi/headshot.jpg"
+  },
+  "stats": [
+    "Purdue University",
+    "Economics & Industrial Engineering",
+    "Consulting + consumer insights",
+    "External affairs + operations"
+  ],
+  "professionalWork": [
+    {
+      "organization": "Scope Consulting",
+      "role": "Strategy and Technical Consulting",
+      "title": "Scope Consulting",
+      "body": "Client-facing consulting work focused on market research, technical commercialization, and go-to-market strategy.",
+      "href": "https://www.linkedin.com/company/scope-consulting-je",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "href": "https://www.linkedin.com/company/scope-consulting-je"
+        }
+      ],
+      "period": "Consulting",
+      "image": "/aditi/scope-case-team.jpg",
+      "imagePosition": "object-center",
+      "projectHighlights": [
+        "Helped Attochron explore where its free-space optical communications technology could fit in Earth-to-Space markets.",
+        "Owned the competitor analysis workstream, comparing direct FSOC players with adjacent satellite communications and RF alternatives.",
+        "Turned research into client-ready strategy: market sizing, customer segmentation, go-to-market direction, and final presentation storytelling."
+      ],
+      "gallery": [
+        {
+          "title": "Attochron Final Presentation",
+          "description": "Earth-to-Space use-case analysis deck covering competitor analysis, market opportunity, customer segmentation, and go-to-market recommendations.",
+          "slides": [
+            {
+              "title": "Opening",
+              "image": "/aditi/decks/attochron/slide-01.png"
+            },
+            {
+              "title": "Direct Competitor Matrix",
+              "image": "/aditi/decks/attochron/slide-02.png"
+            },
+            {
+              "title": "Competitor Analysis",
+              "image": "/aditi/decks/attochron/slide-03.png"
+            },
+            {
+              "title": "Final Customer Recommendation",
+              "image": "/aditi/decks/attochron/slide-04.png"
+            }
+          ],
+          "type": "slides"
+        }
+      ]
+    },
+    {
+      "organization": "180 Degrees Consulting",
+      "role": "Associate Consultant",
+      "title": "180 Degrees Consulting",
+      "body": "Consulting project work focused on nonprofit strategy, student outreach, and turning research into practical recommendations.",
+      "href": "https://www.180dc.org",
+      "links": [
+        {
+          "label": "180DC",
+          "href": "https://www.180dc.org"
+        }
+      ],
+      "period": "Consulting",
+      "image": "/aditi/homestead-case-team.jpg",
+      "imagePosition": "object-center",
+      "imageClass": "rotate-90 scale-[1.6]",
+      "projectHighlights": [
+        "Worked with Homestead Resources on a strategy project focused on improving student engagement with financial literacy programming.",
+        "Used research and survey findings to understand awareness gaps, outreach friction, and what would make workshops feel more useful to students.",
+        "Helped shape the recommendation story into a final client deck with practical next steps for messaging and program visibility."
+      ],
+      "gallery": [
+        {
+          "title": "Homestead Resources Final Deck",
+          "description": "A curated view of the final consulting presentation for Homestead Resources, focused on student awareness, engagement barriers, and recommended next steps.",
+          "slides": [
+            {
+              "title": "Opening",
+              "image": "/aditi/decks/homestead/slide-01.png"
+            },
+            {
+              "title": "Situation",
+              "image": "/aditi/decks/homestead/slide-02.png"
+            },
+            {
+              "title": "Student Research",
+              "image": "/aditi/decks/homestead/slide-03.png"
+            },
+            {
+              "title": "Marketing Strategy",
+              "image": "/aditi/decks/homestead/slide-04.png"
+            },
+            {
+              "title": "Targeted Outreach",
+              "image": "/aditi/decks/homestead/slide-05.png"
+            },
+            {
+              "title": "Implementation Phases",
+              "image": "/aditi/decks/homestead/slide-06.png"
+            }
+          ],
+          "type": "slides"
+        }
+      ]
+    },
+    {
+      "organization": "Purdue University MARS Lab",
+      "role": "Undergraduate Research Assistant",
+      "title": "Purdue University MARS Lab",
+      "body": "Research work at Purdue connecting engineering systems, structured analysis, and technical communication.",
+      "period": "Research",
+      "image": "/aditi/headshot.jpg",
+      "imagePosition": "object-[center_42%]",
+      "projectHighlightsTitle": "Research Work",
+      "projectHighlights": [
+        "Supported research workflows by organizing technical information, reading across project context, and helping translate findings into clearer research materials.",
+        "Built comfort working in an engineering research environment where precision, documentation, and cross-functional communication matter.",
+        "Used the role to deepen the analytical side of my portfolio alongside consulting, operations, and creative storytelling."
+      ]
+    },
+    {
+      "organization": "Purdue Momentum",
+      "role": "VP External Affairs",
+      "title": "Purdue Momentum",
+      "body": "Led external engagement for a 70+ member organization and helped direct Convergence, a 120+ participant case competition.",
+      "href": "https://www.linkedin.com/company/purdue-momentum",
+      "period": "Leadership",
+      "image": "/aditi/homestead-team.jpg",
+      "imagePosition": "object-[center_62%]"
+    },
+    {
+      "organization": "Beats by Dre",
+      "role": "Marketing & Consumer Insights Extern",
+      "title": "Beats by Dre",
+      "body": "Synthesized survey responses and competitor research into pricing, positioning, and brand recommendations.",
+      "period": "Externship",
+      "image": "/aditi/headshot.jpg",
+      "imagePosition": "object-[center_42%]"
+    }
+  ],
+  "involvements": [
+    {
+      "organization": "Purdue Thandava",
+      "role": "Hospitality + Liaison Work",
+      "body": "Managed hospitality, liaison work, and event operations for a cultural organization built around dance and community.",
+      "period": "Community",
+      "image": "/aditi/thandava-board.jpg",
+      "imagePosition": "object-center"
+    },
+    {
+      "organization": "Clean Water New Jersey",
+      "role": "Co-Founder & VP Operations",
+      "body": "Helped lead PFAS testing and sustainability outreach, including team operations, programming, and community-facing project work.",
+      "period": "Service",
+      "image": "/aditi/headshot.jpg",
+      "imagePosition": "object-[center_42%]",
+      "organizationContributionsTitle": "Creative + Outreach",
+      "organizationContributions": [
+        "Created Instagram content to make PFAS testing, clean water advocacy, and sustainability outreach easier for students and community members to understand.",
+        "Balanced operations with storytelling: team coordination, public-facing education, and simple visual messaging around environmental health."
+      ]
+    }
+  ],
+  "creativeWork": [
+    {
+      "title": "PFAS Awareness Carousel",
+      "organization": "Clean Water New Jersey",
+      "format": "Instagram education",
+      "body": "Clean, digestible social content translating water safety and PFAS testing into posts people can actually understand and share.",
+      "accent": "Clean Water"
+    },
+    {
+      "title": "Blood Drive + Service Graphics",
+      "organization": "Red Cross",
+      "format": "Community marketing",
+      "body": "Volunteer-facing graphics and post concepts built around clarity, urgency, and making service opportunities feel approachable.",
+      "accent": "Red Cross"
+    },
+    {
+      "title": "Momentum Event Storytelling",
+      "organization": "Purdue Momentum",
+      "format": "Event promotion",
+      "body": "Posts and messaging for student leadership, external affairs, and case competition energy: professional, warm, and easy to scan.",
+      "accent": "Momentum"
+    },
+    {
+      "title": "Culture + Performance Posts",
+      "organization": "Purdue Thandava",
+      "format": "Social graphics",
+      "body": "Creative work for dance, hospitality, and community moments, where the visual tone needs to feel celebratory but still organized.",
+      "accent": "Thandava"
+    },
+    {
+      "title": "College Advising Carousel",
+      "organization": "Your College App Advisor",
+      "format": "Instagram carousel",
+      "body": "A sample social carousel using softer visual hierarchy, bold hooks, and saveable advice for rising seniors.",
+      "image": "/aditi/creative/college-advisor-01.png",
+      "accent": "Carousel"
+    },
+    {
+      "title": "Swipe-Friendly Advice Post",
+      "organization": "Your College App Advisor",
+      "format": "Instagram carousel",
+      "body": "Designed to move quickly from hook to action, with simple layouts that work well on mobile.",
+      "image": "/aditi/creative/college-advisor-02.png",
+      "accent": "Carousel"
+    }
+  ],
+  "recognition": [
+    "2nd Place, IU-Indy Inter-Collegiate Manufacturing & Supply Chain Case Competition",
+    "Strategy Summit Case Competition Finalist, 180 Degrees Consulting Purdue",
+    "Excellence in Engineering, West Windsor-Plainsboro High School North",
+    "PURCE Economics Scholar",
+    "Goldman Sachs Possibilities Summit 2026"
+  ],
+  "photoStories": [
+    {
+      "title": "Consulting beyond the classroom",
+      "meta": "Scope Consulting",
+      "body": "Visited Deloitte and Accenture with Scope and learned how consulting teams frame client problems, build recommendations, and communicate strategy.",
+      "image": "/aditi/homestead-team.jpg",
+      "position": "object-[center_62%]"
+    },
+    {
+      "title": "Scope case team",
+      "meta": "Consulting + strategy",
+      "body": "Worked with a consulting team on research, market sizing, competitive analysis, and recommendation-building for client-facing strategy work.",
+      "image": "/aditi/scope-case-team.jpg",
+      "position": "object-center"
+    },
+    {
+      "title": "Purdue Thandava",
+      "meta": "Culture + community",
+      "body": "Supported hospitality, liaison work, and event operations for a cultural organization centered on dance, performance, and community.",
+      "image": "/aditi/thandava-board.jpg",
+      "position": "object-center"
+    },
+    {
+      "title": "Homestead",
+      "meta": "Team + competition",
+      "body": "Collaborated with a case competition team to organize analysis, develop a business recommendation, and present under a timed strategy format.",
+      "image": "/aditi/homestead-case-team.jpg",
+      "position": "object-[center_52%]",
+      "imageClass": "rotate-90 scale-[1.22]"
+    }
+  ],
+  "sectionTitles": {
+    "workKicker": "Work",
+    "workTitle": "Where I've worked.",
+    "involvementKicker": "Other Involvement",
+    "involvementTitle": "Other teams.",
+    "recognitionKicker": "Recognition",
+    "recognitionTitle": "Selected recognition.",
+    "galleryKicker": "Gallery",
+    "galleryTitle": "Teams I've been part of.",
+    "galleryIntro": "Photos now live inside the work section so each role has context.",
+    "aboutKicker": "About",
+    "aboutTitle": "A little more context."
+  },
+  "about": {
+    "paragraphs": [
+      "I like work that sits between people and systems: learning what a team is trying to do, finding the bottleneck, and building the structure that helps everyone move with more confidence.",
+      "Right now, that shows up through consulting projects, student organizations, sponsorship tooling, case competitions, community work, and data-backed storytelling."
+    ],
+    "highlight": "For more context on my work, teams, and projects, connect with me here."
+  }
+}

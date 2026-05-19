@@ -3,8 +3,8 @@ import { ThemeProvider } from "next-themes";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "SponsorFlow",
-  description: "AI-powered sponsorship outreach for student organizations."
+  title: "Aditi Athreyas",
+  description: "Aditi Athreyas's personal portfolio."
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

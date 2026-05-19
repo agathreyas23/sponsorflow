@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1080" height="1920" fill="#ffffff"/>
+  <rect x="0" y="0" width="1080" height="118" fill="#ffffff"/>
+  <text x="70" y="92" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="33" font-weight="700" fill="#777777" >@yourcollegeappadv</text>
+  <rect x="890" y="48" width="112" height="54" rx="27" fill="#f5f5f5"/>
+  <text x="946" y="84" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="27" font-weight="800" fill="#0b0b0b" text-anchor="middle">2/3</text>
+  <line x1="0" y1="118" x2="1080" y2="118" stroke="#ececec" stroke-width="2"/>
+  
+    <text x="70" y="244" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="76" font-weight="850" fill="#0b0b0b" >may checklist</text>
+    
+    <g>
+      <circle cx="116" cy="422" r="36" fill="#f2eadc"/>
+      <text x="116" y="434" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#665440" text-anchor="middle">1</text>
+      <text x="180" y="440" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="44" font-weight="800" fill="#0b0b0b" >build your list</text>
+      <text x="180" y="491" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="31" font-weight="600" fill="#777777" >12-16 schools, not just reaches</text>
+    </g>
+  
+    
+    <g>
+      <circle cx="116" cy="627" r="36" fill="#f2eadc"/>
+      <text x="116" y="639" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#665440" text-anchor="middle">2</text>
+      <text x="180" y="645" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="44" font-weight="800" fill="#0b0b0b" >find your angle</text>
+      <text x="180" y="696" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="31" font-weight="600" fill="#777777" >what do you want colleges to see?</text>
+    </g>
+  
+    
+    <g>
+      <circle cx="116" cy="832" r="36" fill="#f2eadc"/>
+      <text x="116" y="844" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#665440" text-anchor="middle">3</text>
+      <text x="180" y="850" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="44" font-weight="800" fill="#0b0b0b" >audit your stats</text>
+      <text x="180" y="901" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="31" font-weight="600" fill="#777777" >transcript, rigor, testing, classes</text>
+    </g>
+  
+    
+    <g>
+      <circle cx="116" cy="1037" r="36" fill="#f2eadc"/>
+      <text x="116" y="1049" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="28" font-weight="800" fill="#665440" text-anchor="middle">4</text>
+      <text x="180" y="1055" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="44" font-weight="800" fill="#0b0b0b" >start your brag doc</text>
+      <text x="180" y="1106" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="31" font-weight="600" fill="#777777" >activities, impact, awards, context</text>
+    </g>
+  
+    <rect x="70" y="1378" width="940" height="150" rx="34" fill="#f5f5f5"/>
+    <text x="114" y="1442" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="35" font-weight="850" fill="#0b0b0b" >goal:</text>
+    <text x="114" y="1490" font-family="Avenir Next, Arial, Helvetica, sans-serif" font-size="33" font-weight="650" fill="#777777" >know the story your application is telling</text>
+  
+</svg>

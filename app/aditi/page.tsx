@@ -1,375 +1,222 @@
 import type { Metadata } from "next";
-import type { ReactNode } from "react";
 import Link from "next/link";
-import { ArrowUpRight, Camera, Mail } from "lucide-react";
+import { ArrowUpRight, Mail } from "lucide-react";
+import { getAditiContent } from "@/lib/aditi-content";
+import type { AditiWorkItem } from "@/types/aditi-content";
 
-export const metadata: Metadata = {
-  title: "Aditi Athreyas",
-  description:
-    "Aditi Athreyas is a Purdue student studying Economics and Industrial Engineering, working across consulting, operations, data, outreach, and student-led products."
+type TimelineMedia = {
+  image: string;
+  fit?: "cover" | "contain";
+  position?: string;
+  imageClass?: string;
 };
 
-const sections = [
-  { label: "Work", href: "#work" },
-  { label: "Involvement", href: "#involvement" },
-  { label: "Recognition", href: "#recognition" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "About", href: "#about" }
-];
+const fallbackMedia: TimelineMedia = {
+  image: "/aditi/headshot.jpg",
+  position: "object-[center_42%]"
+};
 
-const links = [
-  { label: "Email", href: "mailto:athreya3@purdue.edu" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/aditiathreyas" },
-  { label: "SponsorFlow", href: "https://sponsorflow-tau.vercel.app/aditi" },
-  { label: "GitHub", href: "https://github.com/agathreyas23/sponsorflow" }
-];
+export const dynamic = "force-dynamic";
 
-const professionalWork = [
-  {
-    organization: "Scope Consulting",
-    role: "Strategy & Technical Consultant",
-    title: "Consulting work and company treks",
-    body: "Worked on student consulting projects and joined professional treks with exposure to teams at Deloitte and Accenture.",
-    href: "https://www.linkedin.com/company/scope-consulting-je"
-  },
-  {
-    organization: "SponsorFlow",
-    role: "Builder",
-    title: "Sponsorship outreach product",
-    body: "Built a tool for student organizers to find sponsor leads, track outreach, and draft emails for events that need funding.",
-    href: "/"
-  },
-  {
-    organization: "Beats by Dre",
-    role: "Marketing & Consumer Insights Extern",
-    title: "Gen Z consumer research",
-    body: "Synthesized survey responses and competitor research into pricing, positioning, and brand recommendations."
-  },
-  {
-    organization: "Operations + dashboards",
-    role: "Documentation, surveys, and workflow design",
-    title: "Team systems",
-    body: "Built spreadsheets, survey trackers, documentation, and simple operating systems for consulting projects and student organizations."
-  }
-];
+export async function generateMetadata(): Promise<Metadata> {
+  const content = await getAditiContent();
 
-const involvements = [
-  {
-    organization: "Purdue Momentum",
-    role: "VP External Affairs",
-    body: "Led external engagement for a 70+ member organization and helped direct Convergence, a 120+ participant case competition.",
-    href: "https://www.linkedin.com/company/purdue-momentum"
-  },
-  {
-    organization: "180 Degrees Consulting",
-    role: "Professional Development + Consulting",
-    body: "Supported professional development programming, documentation, survey dashboards, and workshop engagement for a consulting community.",
-    href: "https://www.180dc.org"
-  },
-  {
-    organization: "Purdue Thandava",
-    role: "Hospitality + Liaison Work",
-    body: "Managed hospitality, liaison work, and event operations for a cultural organization built around dance and community."
-  },
-  {
-    organization: "Clean Water New Jersey",
-    role: "Co-Founder & VP Operations",
-    body: "Helped lead PFAS testing and sustainability outreach, including team operations, programming, and community-facing project work."
-  }
-];
+  return {
+    title: content.metadata.title,
+    description: content.metadata.description
+  };
+}
 
-const recognition = [
-  "2nd Place, IU-Indy Inter-Collegiate Manufacturing & Supply Chain Case Competition",
-  "Strategy Summit Case Competition Finalist, 180 Degrees Consulting Purdue",
-  "Excellence in Engineering, West Windsor-Plainsboro High School North",
-  "PURCE Economics Scholar",
-  "Goldman Sachs Possibilities Summit 2026"
-];
+export default async function AditiPage() {
+  const content = await getAditiContent();
+  const linkedin = content.links.find((link) => link.label.toLowerCase() === "linkedin");
+  const email = content.links.find((link) => link.href.startsWith("mailto:"));
 
-const photoStories = [
-  {
-    title: "Scope trek: Deloitte and Accenture",
-    meta: "Scope Consulting",
-    body: "A consulting trek with visits and conversations around professional services work.",
-    image: "/aditi/homestead-team.jpg",
-    position: "object-[center_62%]"
-  },
-  {
-    title: "Scope case team",
-    meta: "Consulting + strategy",
-    body: "Team case work, research, and recommendation-building.",
-    image: "/aditi/scope-case-team.jpg",
-    position: "object-center"
-  },
-  {
-    title: "Purdue Thandava",
-    meta: "Culture + community",
-    body: "Hospitality, liaison work, and event operations.",
-    image: "/aditi/thandava-board.jpg",
-    position: "object-center"
-  },
-  {
-    title: "Homestead",
-    meta: "Team + competition",
-    body: "A case competition team photo from a business and strategy setting.",
-    image: "/aditi/homestead-case-team.jpg",
-    position: "object-center",
-    imageClass: "rotate-90 scale-[1.38]"
-  }
-];
-
-export default function AditiPage() {
   return (
-    <main
-      className="min-h-screen overflow-x-hidden bg-[#f5efe4] text-[#15120e]"
-      style={{ fontFamily: '"Aptos", "Inter", "Helvetica Neue", Arial, sans-serif' }}
-    >
-      <header className="fixed inset-x-0 top-0 z-50 border-b border-[#d7c9b4] bg-[#f5efe4]/95 backdrop-blur">
-        <nav className="flex h-14 items-center justify-between px-5 text-sm md:px-8">
-          <Link href="/aditi" className="flex items-center gap-3 text-base font-semibold">
-            <span className="h-5 w-1 bg-[#8f1d21]" />
-            Aditi Athreyas
+    <main className="min-h-screen bg-[#fbfaf7] text-[#171717]">
+      <header className="sticky top-0 z-40 border-b border-[#e4dfd6] bg-[#fbfaf7]/85 backdrop-blur-sm">
+        <div className="mx-auto flex max-w-[1400px] items-center justify-between px-7 py-4 md:px-8">
+          <Link href="/aditi" className="flex items-center gap-2.5">
+            <span className="h-5 w-[3px] bg-[#8f1d21]" />
+            <span className="font-serif text-[20px] italic leading-none text-[#171717]">Aditi</span>
           </Link>
-          <div className="hidden items-center gap-7 md:flex">
-            {sections.map((section) => (
-              <a key={section.href} href={section.href} className="text-[#3d342b] transition hover:text-[#8f1d21]">
-                {section.label}
+          <nav className="hidden items-center gap-7 md:flex">
+            {content.nav.map((item, index) => (
+              <a
+                key={item.href}
+                className={`relative text-sm transition-colors ${index === 0 ? "text-[#171717]" : "text-[#6f6b64] hover:text-[#171717]"}`}
+                href={item.href}
+              >
+                {item.label}
+                {index === 0 ? <span className="absolute -bottom-[17px] left-0 right-0 h-[2px] bg-[#8f1d21]" /> : null}
               </a>
             ))}
-          </div>
-          <a href="mailto:athreya3@purdue.edu" className="inline-flex items-center gap-2 text-[#3d342b] hover:text-[#8f1d21]">
-            <Mail className="size-4" />
-            <span className="hidden sm:inline">Contact</span>
+            {linkedin ? (
+              <a
+                className="text-sm text-[#6f6b64] transition-colors hover:text-[#8f1d21]"
+                href={linkedin.href}
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+            ) : null}
+          </nav>
+          <a
+            aria-label="Email Aditi"
+            href={email?.href ?? "mailto:athreya3@purdue.edu"}
+            className="text-[#6f6b64] transition-colors hover:text-[#8f1d21]"
+          >
+            <Mail className="size-5" />
           </a>
-        </nav>
+        </div>
       </header>
 
-      <section className="px-5 pb-14 pt-24 md:px-8 md:pb-18 md:pt-32">
-        <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-[1fr_0.78fr] md:items-end">
-          <div>
-            <p className="text-xs font-semibold uppercase text-[#7f7365]">Purdue / Economics & Industrial Engineering</p>
-            <h1 className="mt-5 text-4xl font-semibold leading-tight md:text-5xl">Aditi Athreyas</h1>
-            <p className="mt-4 max-w-xl text-2xl leading-9 text-[#3d342b] md:text-3xl">
-              “Ambition is most useful in motion.”
-            </p>
-            <p className="mt-6 max-w-2xl text-base leading-8 text-[#5f5142] md:text-lg">
-              I study Economics & Industrial Engineering at Purdue and work across consulting, student organizations, operations, and product projects.
-            </p>
-            <div className="mt-7 flex flex-wrap gap-3">
-              {links.map((link) => (
-                <SmartLink key={link.label} href={link.href} variant="button">
-                  {link.label}
-                </SmartLink>
-              ))}
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div className="aspect-[4/3] overflow-hidden border border-[#cbbda8] bg-[#d8c8b4]">
-              <img
-                src="/aditi/headshot.jpg"
-                alt="Aditi Athreyas"
-                className="h-full w-full object-cover object-[center_42%]"
-              />
-            </div>
-            <p className="border-l border-[#8f1d21] pl-5 text-sm leading-7 text-[#5f5142]">
-              Hi everyone, I&apos;m Aditi Athreyas and I&apos;m currently a student studying Economics and Industrial Engineering at Purdue University.
-            </p>
-          </div>
-        </div>
-      </section>
+      <article className="mx-auto max-w-[760px] px-5 pb-24 pt-16 md:px-6 md:pt-24">
+        <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8d877d]">{content.sectionTitles.workKicker}</p>
+        <h1 className="mt-5 text-[clamp(2rem,5vw,3rem)] font-medium leading-[1.02] tracking-[-0.02em] text-[#171717]">
+          {content.sectionTitles.workTitle}
+        </h1>
+        <p className="mt-5 max-w-[560px] font-serif text-[clamp(1.05rem,1.8vw,1.3rem)] italic leading-snug text-[#6f6b64]">
+          {content.hero.intro}
+        </p>
 
-      <section className="border-y border-[#d7c9b4] px-5 py-5 md:px-8">
-        <div className="mx-auto grid max-w-6xl gap-4 text-sm text-[#5f5142] md:grid-cols-4">
-          <p>Purdue University</p>
-          <p>Economics & Industrial Engineering</p>
-          <p>Consulting + operations</p>
-          <p>Student-led products</p>
-        </div>
-      </section>
+        <Timeline id="work" items={content.professionalWork} />
 
-      <section id="work" className="px-5 py-16 md:px-8 md:py-20">
-        <div className="mx-auto max-w-6xl">
-          <SectionIntro kicker="Professional Work" title="Work I can point to." />
-          <div className="mt-9 divide-y divide-[#d7c9b4] border-y border-[#d7c9b4]">
-            {professionalWork.map((item) => (
-              <RowItem
-                key={item.organization}
-                eyebrow={item.organization}
-                title={item.title}
-                role={item.role}
-                href={item.href}
-              >
-                {item.body}
-              </RowItem>
-            ))}
-          </div>
-        </div>
-      </section>
+        <section id="involvement" className="scroll-mt-[80px] pt-16">
+          <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8d877d]">{content.sectionTitles.involvementKicker}</p>
+          <h2 className="mt-4 text-[clamp(1.6rem,4vw,2.25rem)] font-medium leading-tight tracking-[-0.02em]">
+            {content.sectionTitles.involvementTitle}
+          </h2>
+          <p className="mt-4 max-w-[560px] font-serif text-[1.05rem] italic leading-snug text-[#6f6b64]">
+            {content.sectionTitles.galleryIntro}
+          </p>
+          <Timeline items={content.involvements} />
+        </section>
 
-      <section id="involvement" className="border-t border-[#d7c9b4] px-5 py-16 md:px-8 md:py-20">
-        <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-[0.82fr_1.18fr]">
-          <SectionIntro kicker="Involvement" title="Organizations and teams." />
-          <div className="divide-y divide-[#d7c9b4] border-y border-[#d7c9b4]">
-            {involvements.map((item) => (
-              <RowItem
-                key={item.organization}
-                eyebrow={item.organization}
-                title={item.role}
-                href={item.href}
-              >
-                {item.body}
-              </RowItem>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section id="recognition" className="border-y border-[#d7c9b4] px-5 py-16 md:px-8 md:py-20">
-        <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-[0.82fr_1.18fr]">
-          <SectionIntro kicker="Recognition" title="Selected recognition." />
-          <div className="divide-y divide-[#d7c9b4] border-y border-[#d7c9b4]">
-            {recognition.map((item) => (
-              <p key={item} className="py-4 text-sm leading-7 text-[#5f5142]">
-                {item}
+        <section id="about" className="scroll-mt-[80px] pt-16">
+          <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#8d877d]">{content.sectionTitles.aboutKicker}</p>
+          <h2 className="mt-4 text-[clamp(1.6rem,4vw,2.25rem)] font-medium leading-tight tracking-[-0.02em]">
+            {content.sectionTitles.aboutTitle}
+          </h2>
+          <div className="mt-7 space-y-4">
+            <p className="text-[15px] leading-[1.75] text-[#2b2925]">{content.hero.blurb.trim()}</p>
+            {content.about.paragraphs.map((paragraph) => (
+              <p key={paragraph} className="text-[15px] leading-[1.75] text-[#2b2925]">
+                {paragraph}
               </p>
             ))}
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="gallery" className="px-5 py-16 md:px-8 md:py-20">
-        <div className="mx-auto max-w-6xl">
-          <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
-            <SectionIntro kicker="Gallery" title="A few real moments." />
-            <p className="max-w-sm text-sm leading-7 text-[#5f5142]">
-              Photos from consulting, competitions, and campus organizations.
-            </p>
-          </div>
-          <div className="mt-10 grid gap-6 md:grid-cols-2">
-            {photoStories.map((item) => (
-              <figure key={item.title} className="group">
-                <div className="aspect-[16/10] overflow-hidden border border-[#cbbda8] bg-[#ded2bf]">
-                  <img
-                    src={item.image}
-                    alt={item.title}
-                    className={`h-full w-full object-cover ${item.position} transition duration-500 group-hover:scale-[1.02] ${item.imageClass ?? ""}`}
-                  />
-                </div>
-                <figcaption className="mt-4">
-                  <p className="flex items-center gap-2 text-sm font-semibold">
-                    <Camera className="size-4 text-[#8f1d21]" />
-                    {item.title}
-                  </p>
-                  <p className="mt-1 text-xs font-semibold uppercase text-[#8a7f70]">{item.meta}</p>
-                  <p className="mt-2 text-sm leading-6 text-[#5f5142]">{item.body}</p>
-                </figcaption>
-              </figure>
+        <section className="mt-16 border-t border-[#e4dfd6] pt-8">
+          <p className="text-[15px] leading-[1.75] text-[#2b2925]">
+            {content.about.highlight}
+          </p>
+          <div className="mt-5 flex flex-wrap gap-x-5 gap-y-3">
+            {content.links.map((link) => (
+              <SmartLink key={link.label} href={link.href}>
+                {link.label}
+              </SmartLink>
             ))}
           </div>
-        </div>
-      </section>
-
-      <section id="about" className="border-y border-[#d7c9b4] px-5 py-16 md:px-8 md:py-20">
-        <div className="mx-auto grid max-w-6xl gap-10 md:grid-cols-[0.82fr_1.18fr]">
-          <SectionIntro kicker="About" title="A little more context." />
-          <div className="space-y-5 text-sm leading-7 text-[#5f5142]">
-            <p>
-              I like work that sits between people and systems: learning what a team is trying to do, finding the bottleneck, and building the structure that helps everyone move with more confidence.
-            </p>
-            <p>
-              Right now, that shows up through consulting projects, student organizations, sponsorship tooling, case competitions, community work, and data-backed storytelling.
-            </p>
-            <p className="border-l border-[#8f1d21] pl-5 text-lg font-semibold leading-8 text-[#3d342b]">
-              I care about work that is organized, useful, and grounded in real people.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <footer className="flex flex-col gap-4 px-5 py-8 text-sm text-[#5f5142] md:flex-row md:items-center md:justify-between md:px-8">
-        <p>Aditi Athreyas</p>
-        <div className="flex flex-wrap gap-5">
-          {links.map((link) => (
-            <a
-              key={link.label}
-              href={link.href}
-              target={link.href.startsWith("http") ? "_blank" : undefined}
-              rel={link.href.startsWith("http") ? "noreferrer" : undefined}
-              className="hover:text-[#8f1d21]"
-            >
-              {link.label}
-            </a>
-          ))}
-        </div>
-      </footer>
+        </section>
+      </article>
     </main>
   );
 }
 
-function SectionIntro({ kicker, title }: { kicker: string; title: string }) {
+function Timeline({ id, items }: { id?: string; items: AditiWorkItem[] }) {
   return (
-    <div>
-      <p className="text-xs font-semibold uppercase text-[#7f7365]">{kicker}</p>
-      <h2 className="mt-4 max-w-2xl text-3xl font-semibold leading-tight md:text-4xl">{title}</h2>
-    </div>
+    <ol id={id} className="mt-14">
+      {items.map((item) => (
+        <TimelineItem key={item.organization} item={item} />
+      ))}
+    </ol>
   );
 }
 
-function RowItem({
-  eyebrow,
-  title,
-  role,
-  href,
-  children
-}: {
-  eyebrow: string;
-  title: string;
-  role?: string;
-  href?: string;
-  children: ReactNode;
-}) {
+function TimelineItem({ item }: { item: AditiWorkItem }) {
+  const media: TimelineMedia = {
+    image: item.image || fallbackMedia.image,
+    position: item.imagePosition || fallbackMedia.position,
+    imageClass: item.imageClass
+  };
+  const description = item.body
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean);
+  const bullets = description.length > 1 ? description : splitSentences(item.body);
+
   return (
-    <article className="grid gap-4 py-6 md:grid-cols-[0.42fr_1fr]">
-      <div>
-        <p className="text-xs font-semibold uppercase text-[#8a7f70]">{eyebrow}</p>
-        <h3 className="mt-2 text-xl font-semibold text-[#15120e]">{title}</h3>
-        {role ? <p className="mt-1 text-sm text-[#8f1d21]">{role}</p> : null}
+    <li className="relative scroll-mt-[80px] border-t border-[#e4dfd6] py-8 last:border-b">
+      <div className="grid grid-cols-[44px_1fr] gap-5 md:grid-cols-[56px_1fr] md:gap-7">
+        <div className="relative flex flex-none items-start pt-0.5">
+          <div className="relative h-11 w-11 overflow-hidden rounded-md bg-[#f0ede7] md:h-12 md:w-12">
+            <img
+              alt={item.organization}
+              src={media.image}
+              className={`h-full w-full ${media.fit === "contain" ? "object-contain p-1.5" : "object-cover"} ${media.position ?? "object-center"} ${media.imageClass ?? ""}`}
+            />
+          </div>
+        </div>
+        <div className="min-w-0">
+          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+            <h2 className="text-[19px] font-medium leading-tight tracking-[-0.01em] text-[#171717] md:text-[21px]">
+              {item.role}
+            </h2>
+            <span className="font-mono text-[11px] uppercase tracking-[0.14em] text-[#8d877d]">
+              {item.period || "Team"}
+            </span>
+          </div>
+          <p className="mt-1 text-[14.5px] text-[#6f6b64]">{item.organization}</p>
+          <ul className="mt-4 space-y-2.5">
+            {bullets.map((bullet) => (
+              <li key={bullet} className="relative pl-5 text-[15px] leading-[1.65] text-[#2b2925]">
+                <span className="absolute left-0 top-[12px] h-px w-3 bg-[#c4beb4]" />
+                {bullet}
+              </li>
+            ))}
+          </ul>
+          {item.href ? (
+            <SmartLink href={item.href} className="mt-4">
+              View link
+            </SmartLink>
+          ) : null}
+        </div>
       </div>
-      <div>
-        <p className="text-sm leading-7 text-[#5f5142]">{children}</p>
-        {href ? (
-          <SmartLink href={href} className="mt-3">
-            View link
-          </SmartLink>
-        ) : null}
-      </div>
-    </article>
+    </li>
   );
+}
+
+function splitSentences(text: string) {
+  const trimmed = text.trim();
+
+  if (!trimmed) return [];
+
+  const parts = trimmed.match(/[^.!?]+[.!?]+/g);
+  return parts && parts.length > 1 ? parts.map((part) => part.trim()) : [trimmed];
 }
 
 function SmartLink({
   href,
   className = "",
-  variant = "text",
   children
 }: {
   href: string;
   className?: string;
-  variant?: "text" | "button";
-  children: ReactNode;
+  children: React.ReactNode;
 }) {
+  const isInternal = href.startsWith("/");
+  const classes = `inline-flex items-center gap-1.5 text-sm font-medium text-[#8f1d21] ${className}`;
   const content = (
     <>
       {children}
       <ArrowUpRight className="size-3.5" />
     </>
   );
-  const classes =
-    variant === "button"
-      ? `inline-flex items-center gap-2 border border-[#cbbda8] px-3 py-2 text-sm transition hover:border-[#8f1d21] hover:text-[#8f1d21] ${className}`
-      : `inline-flex items-center gap-2 text-sm font-medium text-[#8f1d21] ${className}`;
 
-  if (href.startsWith("/")) {
+  if (isInternal) {
     return (
       <Link href={href} className={classes}>
         {content}
@@ -378,7 +225,7 @@ function SmartLink({
   }
 
   return (
-    <a href={href} target="_blank" rel="noreferrer" className={classes}>
+    <a href={href} target={href.startsWith("mailto:") ? undefined : "_blank"} rel={href.startsWith("mailto:") ? undefined : "noreferrer"} className={classes}>
       {content}
     </a>
   );

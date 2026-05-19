@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="26" flood-color="#5f4b36" flood-opacity="0.11"/>
+    </filter>
+    <pattern id="grain" width="120" height="120" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="22" r="1.1" fill="#7d6b55" opacity="0.08"/>
+      <circle cx="86" cy="58" r="0.9" fill="#7d6b55" opacity="0.07"/>
+      <circle cx="44" cy="101" r="0.8" fill="#7d6b55" opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="1080" height="1920" fill="#fffaf1"/>
+  <rect width="1080" height="1920" fill="url(#grain)"/>
+  <circle cx="985" cy="118" r="210" fill="#f3d9cf" opacity="0.55"/>
+  <circle cx="58" cy="1684" r="244" fill="#e3f0e7" opacity="0.62"/>
+  <rect x="72" y="94" width="936" height="1732" rx="54" fill="#fdf8ef" filter="url(#softShadow)"/>
+  <rect x="116" y="142" width="848" height="1636" rx="38" fill="none" stroke="#d8c3a3" stroke-width="3" opacity="0.75"/>
+  <text x="140" y="222" font-family="Avenir Next, Arial, sans-serif" font-size="31" font-weight="700" fill="#746a5f" >@yourcollegeappadv</text>
+  <rect x="828" y="178" width="108" height="56" rx="28" fill="#6b5843"/>
+  <text x="882" y="216" font-family="Avenir Next, Arial, sans-serif" font-size="28" font-weight="800" fill="#ffffff" text-anchor="middle">2/3</text>
+  
+    <text x="140" y="384" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="800" fill="#332718" >Your May moves</text>
+    
+    <g>
+      <circle cx="174" cy="584" r="24" fill="#f1e7d5" stroke="#d8c3a3" stroke-width="2"/>
+      <text x="174" y="594" font-family="Avenir Next, Arial, sans-serif" font-size="24" font-weight="800" fill="#6b5843" text-anchor="middle">01</text>
+      <text x="218" y="594" font-family="Georgia, 'Times New Roman', serif" font-size="39" font-weight="800" fill="#332718" >Build the list</text>
+      <text x="218" y="643" font-family="Avenir Next, Arial, sans-serif" font-size="28" font-weight="600" fill="#746a5f" >12-16 schools. Know why each</text>
+<text x="218" y="682" font-family="Avenir Next, Arial, sans-serif" font-size="28" font-weight="600" fill="#746a5f" >one fits beyond ranking.</text>
+    </g>
+  
+    
+    <g>
+      <circle cx="174" cy="814" r="24" fill="#f1e7d5" stroke="#d8c3a3" stroke-width="2"/>
+      <text x="174" y="824" font-family="Avenir Next, Arial, sans-serif" font-size="24" font-weight="800" fill="#6b5843" text-anchor="middle">02</text>
+      <text x="218" y="824" font-family="Georgia, 'Times New Roman', serif" font-size="39" font-weight="800" fill="#332718" >Find your angle</text>
+      <text x="218" y="873" font-family="Avenir Next, Arial, sans-serif" font-size="28" font-weight="600" fill="#746a5f" >Choose 2-3 interests and the</text>
+<text x="218" y="912" font-family="Avenir Next, Arial, sans-serif" font-size="28" font-weight="600" fill="#746a5f" >story connecting them.</text>
+    </g>
+  
+    
+    <g>
+      <circle cx="174" cy="1044" r="24" fill="#f1e7d5" stroke="#d8c3a3" stroke-width="2"/>
+      <text x="174" y="1054" font-family="Avenir Next, Arial, sans-serif" font-size="24" font-weight="800" fill="#6b5843" text-anchor="middle">03</text>
+      <text x="218" y="1054" font-family="Georgia, 'Times New Roman', serif" font-size="39" font-weight="800" fill="#332718" >Audit your stats</text>
+      <text x="218" y="1103" font-family="Avenir Next, Arial, sans-serif" font-size="28" font-weight="600" fill="#746a5f" >Transcript, rigor, testing plan,</text>
+<text x="218" y="1142" font-family="Avenir Next, Arial, sans-serif" font-size="28" font-weight="600" fill="#746a5f" >senior classes, weak spots.</text>
+    </g>
+  
+    
+    <g>
+      <circle cx="174" cy="1274" r="24" fill="#f1e7d5" stroke="#d8c3a3" stroke-width="2"/>
+      <text x="174" y="1284" font-family="Avenir Next, Arial, sans-serif" font-size="24" font-weight="800" fill="#6b5843" text-anchor="middle">04</text>
+      <text x="218" y="1284" font-family="Georgia, 'Times New Roman', serif" font-size="39" font-weight="800" fill="#332718" >Make the brag doc</text>
+      <text x="218" y="1333" font-family="Avenir Next, Arial, sans-serif" font-size="28" font-weight="600" fill="#746a5f" >Activities, impact numbers,</text>
+<text x="218" y="1372" font-family="Avenir Next, Arial, sans-serif" font-size="28" font-weight="600" fill="#746a5f" >awards, projects, context.</text>
+    </g>
+  
+    <rect x="160" y="1538" width="760" height="108" rx="54" fill="#f1e7d5"/>
+    <text x="540" y="1604" font-family="Avenir Next, Arial, sans-serif" font-size="29" font-weight="800" fill="#6b5843" text-anchor="middle">Goal: know the story your application is telling.</text>
+  
+</svg>

@@ -4,26 +4,26 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: 348 78% 98%;
-  --foreground: 342 45% 16%;
-  --card: 0 0% 100%;
-  --card-foreground: 342 45% 16%;
-  --popover: 0 0% 100%;
-  --popover-foreground: 342 45% 16%;
-  --primary: 342 58% 28%;
-  --primary-foreground: 350 88% 98%;
-  --secondary: 346 78% 94%;
-  --secondary-foreground: 342 50% 24%;
-  --muted: 348 52% 94%;
-  --muted-foreground: 342 20% 43%;
-  --accent: 333 78% 76%;
-  --accent-foreground: 342 55% 18%;
+  --background: 32 64% 95%;
+  --foreground: 24 16% 16%;
+  --card: 36 100% 98%;
+  --card-foreground: 24 16% 16%;
+  --popover: 36 100% 98%;
+  --popover-foreground: 24 16% 16%;
+  --primary: 349 28% 43%;
+  --primary-foreground: 36 100% 98%;
+  --secondary: 348 70% 92%;
+  --secondary-foreground: 24 18% 19%;
+  --muted: 32 38% 90%;
+  --muted-foreground: 25 10% 42%;
+  --accent: 348 69% 82%;
+  --accent-foreground: 24 18% 19%;
   --destructive: 0 72% 51%;
   --destructive-foreground: 0 0% 98%;
-  --border: 345 42% 87%;
-  --input: 345 42% 87%;
-  --ring: 342 58% 38%;
-  --radius: 0.75rem;
+  --border: 31 38% 86%;
+  --input: 31 38% 86%;
+  --ring: 349 28% 43%;
+  --radius: 0.5rem;
 }
 
 .dark {
@@ -80,13 +80,12 @@
 
 body {
   min-height: 100vh;
-  background:
-    radial-gradient(circle at 12% 0%, hsl(333 82% 88% / 0.92), transparent 30rem),
-    radial-gradient(circle at 88% 10%, hsl(342 58% 28% / 0.10), transparent 22rem),
-    linear-gradient(180deg, hsl(var(--background)), hsl(350 72% 96%));
+  background: linear-gradient(180deg, hsl(var(--background)), hsl(34 72% 96%));
   color: hsl(var(--foreground));
   font-family:
     Inter,
+    "Helvetica Neue",
+    Arial,
     ui-sans-serif,
     system-ui,
     -apple-system,
@@ -97,10 +96,7 @@ body {
 }
 
 .dark body {
-  background:
-    radial-gradient(circle at 12% 0%, hsl(333 62% 30% / 0.42), transparent 30rem),
-    radial-gradient(circle at 88% 10%, hsl(346 78% 76% / 0.12), transparent 22rem),
-    linear-gradient(180deg, hsl(var(--background)), hsl(342 42% 7%));
+  background: linear-gradient(180deg, hsl(var(--background)), hsl(342 42% 7%));
 }
 
 ::selection {
